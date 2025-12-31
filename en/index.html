@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORSEC S.r.l.</title>
+  <meta name="description" content="FORSEC S.r.l. is a University of Calabria Spin-off">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FORSEC S.r.l.">
+  <meta property="og:description" content="University of Calabria Spin-off">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/images/logo-forsec.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+
+    <div class="header__bar">
+      <div class="container">
+        <div class="header__inner">
+          <a href="../en/" class="header__logo">
+            <img src="../assets/images/logo-forsec.png" alt="FORSEC Logo">
+          </a>
+
+          <nav class="header__nav" id="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="platform.html" class="nav__link">Platform</a></li>
+              <li class="nav__item nav__item--dropdown">
+                <a href="#services" class="nav__link">
+                  Services
+                  <svg class="nav__link-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </a>
+                <div class="nav__dropdown">
+                  <a href="services/cybersecurity.html" class="nav__dropdown-link">Cybersecurity</a>
+                  <a href="services/artificial-intelligence.html" class="nav__dropdown-link">Artificial Intelligence</a>
+                </div>
+              </li>
+              <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+              <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+              <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+
+            <div class="lang-toggle">
+              <a href="../" class="lang-toggle__btn">ITA</a>
+              <button class="lang-toggle__btn lang-toggle__btn--active">ENG</button>
+            </div>
+          </nav>
+
+          <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span>Cybersecurity</span> & AI from Research to Enterprise
+        </h1>
+        <p class="hero__subtitle">
+          Advanced security and AI solutions to protect and innovate your business.
+        </p>
+        <div class="hero__cta">
+          <a href="#services" class="btn btn--primary btn--lg">Our Services</a>
+          <a href="#platform" class="btn btn--ghost btn--lg">CHECK Platform</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Platform Section -->
+  <section class="section platform" id="platform">
+    <div class="container">
+      <div class="platform__grid">
+        <div class="platform__content">
+          <p class="platform__acronym">Cybersecurity Hands-on Education, Certification, and Knowledge</p>
+          <h2>CHECK Platform</h2>
+          <p class="platform__description">
+            Advanced Cyber Range platform for training, education, skill development and verification in cybersecurity. It offers realistic virtual environments for practicing threat detection and incident response.
+          </p>
+
+          <div class="platform__features">
+            <div class="feature-item">
+              <svg class="feature-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="feature-item__text">Realistic virtual environments for IT and OT simulations</span>
+            </div>
+            <div class="feature-item">
+              <svg class="feature-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="feature-item__text">Advanced orchestration for attack and defense scenarios</span>
+            </div>
+            <div class="feature-item">
+              <svg class="feature-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="feature-item__text">Automated skills assessment</span>
+            </div>
+            <div class="feature-item">
+              <svg class="feature-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="feature-item__text">Digital Twin integration</span>
+            </div>
+          </div>
+
+          <a href="platform.html" class="btn btn--primary" style="margin-top: var(--spacing-lg);">Learn more</a>
+        </div>
+
+        <div class="platform__visual">
+          <img
+            src="../assets/images/platform.jpg"
+            alt="CHECK: Cybersecurity Hands-on Education, Certification, and Knowledge Platform Architecture"
+            style="width: 100%; height: auto; display: block;"
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section section--gray" id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Services</h2>
+        <p>We offer cybersecurity and artificial intelligence solutions for small, medium and large enterprises.</p>
+      </div>
+
+      <div class="services__grid">
+        <!-- Service 1: Cybersecurity -->
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Cybersecurity</h3>
+          <p class="service-card__description">
+            Penetration testing, vulnerability assessment, OT/ICS security and digital forensics. We protect your infrastructure with an attacker's mindset.
+          </p>
+          <a href="services/cybersecurity.html" class="service-card__link">
+            Learn more
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 2: AI -->
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Artificial Intelligence</h3>
+          <p class="service-card__description">
+            Process mining, machine learning for security, custom AI solutions. We transform your data into value with research-driven innovation.
+          </p>
+          <a href="services/artificial-intelligence.html" class="service-card__link">
+            Learn more
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 3: Cyber Range -->
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Cyber Range Training</h3>
+          <p class="service-card__description">
+            Hands-on training on the CHECK platform with realistic scenarios. Practical training for IT and OT security teams.
+          </p>
+          <a href="platform.html" class="service-card__link">
+            Discover CHECK
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__content">
+          <h2>About Us</h2>
+          <p class="about__text">
+            "FORSEC S.r.l. is a spin-off of the University of Calabria that bridges the gap between academic research and industry. Our mission is to transform scientific results into innovative solutions for cybersecurity and artificial intelligence.
+          </p>
+          <p class="about__text">
+            The company is also an Innovative Startup (Startup Innovativa) according to DL 179/2012, art. 25, comma 2.
+          </p>
+
+          <div class="about__badges">
+            <div class="badge">
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+              </svg>
+              Spin-off
+            </div>
+            <div class="badge">
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+              </svg>
+              Innovative Startup
+            </div>
+          </div>
+        </div>
+
+        <div class="about__stats">
+          <div class="stat-item">
+            <div class="stat-item__number">2024</div>
+            <div class="stat-item__label">Year Founded</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number">4</div>
+            <div class="stat-item__label">PhD Researchers in the Team</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number">Hybrid Cloud</div>
+            <div class="stat-item__label">Business Model</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section section--gray" id="team">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Team</h2>
+      </div>
+
+      <div class="team__grid">
+
+        <div class="team-card">
+          <div class="team-card__avatar">CF</div>
+          <h3 class="team-card__name">Carmelo Felicetti</h3>
+          <p class="team-card__role">Co-Founder and Technical-Scientific Consultant</p>
+          <p class="team-card__affiliation">Researcher, University of Calabria</p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar">MI</div>
+          <h3 class="team-card__name">Michele Ianni</h3>
+          <p class="team-card__role">Co-Founder and Technical-Scientific Consultant</p>
+          <p class="team-card__affiliation">Researcher, University of Calabria</p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar">FL</div>
+          <h3 class="team-card__name">Francesco Lupia</h3>
+          <p class="team-card__role">Co-Founder and CTO</p>
+          <p class="team-card__affiliation">Researcher, University of Calabria</p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar">AP</div>
+          <h3 class="team-card__name">Andrea Pugliese</h3>
+          <p class="team-card__role">Co-Founder and COO</p>
+          <p class="team-card__affiliation">Full Professor of Computer Engineering, University of Calabria</p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar">EA</div>
+          <h3 class="team-card__name">Emanuele Allegretti</h3>
+          <p class="team-card__role">CEO</p>
+          <p class="team-card__affiliation">Entrepreneur and chairman of BSQ Security Group</p>
+        </div>
+
+       </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <h2>Contact Us</h2>
+          <p class="contact__text">
+            Interested in our solutions? Contact us to discover how we can help your business.
+          </p>
+
+          <div class="contact__items">
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div class="contact-item__content">
+                <p class="contact-item__label">Email</p>
+                <a href="mailto:info@forsec.it">info@forsec.it</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+              </div>
+               <div class="contact-item__content">
+                <p class="contact-item__label">Operational Office</p>
+                <p>Via P. Bucci Edificio 44Z - piano 1°, University of Calabria<br>87036 Rende (CS), Italy</p>
+              </div>
+              <div class="contact-item__content">
+                <p class="contact-item__label">Registered Office</p>
+                <p>VIA GAUDIO MAIORI 1<br>84013 Cava de' Tirreni (SA), Italy</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logos">
+            <img src="../assets/images/logo-forsec.png" alt="FORSEC Logo" class="footer__logo-main">
+            <img src="../assets/images/spin-off-unical-1-600x164.png" alt="University of Calabria spin-off" class="footer__logo-secondary">
+          </div>
+          <p>University of Calabria spin-off specialized in innovative solutions for cybersecurity and artificial intelligence.</p>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Quick Links</h4>
+          <div class="footer__links">
+            <a href="platform.html">CHECK Platform</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Services</h4>
+          <div class="footer__links">
+            <a href="services/cybersecurity.html">Cybersecurity</a>
+            <a href="services/artificial-intelligence.html">Artificial Intelligence</a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Legal Info</h4>
+          <div class="footer__links">
+            <p style="color: rgba(255,255,255,0.5); font-size: 0.8rem;">VAT: 06276000657</p>
+            <p style="color: rgba(255,255,255,0.5); font-size: 0.8rem;">Share Capital € 10,000.00 fully paid</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 FORSEC S.r.l. - All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/main.js"></script>
+</body>
+</html>

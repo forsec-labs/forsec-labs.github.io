@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piattaforma CHECK | FORSEC S.r.l.</title>
+  <meta name="description" content="CHECK - Cybersecurity Hands-on Education, Certification, and Knowledge. Piattaforma Cyber Range per formazione pratica in sicurezza informatica. FORSEC - Spin-off Universita della Calabria.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Piattaforma CHECK | FORSEC S.r.l.">
+  <meta property="og:description" content="Cyber Range avanzato per formazione, addestramento e certificazione in cybersecurity.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo-forsec.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__bar">
+      <div class="container">
+        <div class="header__inner">
+          <a href="/" class="header__logo">
+            <img src="assets/images/logo-forsec.png" alt="FORSEC Logo">
+          </a>
+
+          <nav class="header__nav" id="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="piattaforma.html" class="nav__link">Piattaforma</a></li>
+              <li class="nav__item nav__item--dropdown">
+                <a href="#services" class="nav__link">
+                  Servizi
+                  <svg class="nav__link-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </a>
+                <div class="nav__dropdown">
+                  <a href="servizi/cybersecurity.html" class="nav__dropdown-link">Cybersecurity</a>
+                  <a href="servizi/intelligenza-artificiale.html" class="nav__dropdown-link">Intelligenza Artificiale</a>
+                </div>
+              </li>
+              <li class="nav__item"><a href="/#about" class="nav__link">Chi Siamo</a></li>
+              <li class="nav__item"><a href="/#team" class="nav__link">Team</a></li>
+              <li class="nav__item"><a href="/#contact" class="nav__link">Contatti</a></li>
+            </ul>
+
+            <div class="lang-toggle">
+              <button class="lang-toggle__btn lang-toggle__btn--active">ITA</button>
+              <a href="en/platform.html" class="lang-toggle__btn">ENG</a>
+            </div>
+          </nav>
+
+          <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero hero--service">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge">Piattaforma</span>
+        <h1 class="hero__title">
+          <span>CHECK</span> Cyber Range
+        </h1>
+        <p class="hero__subtitle">
+          Cybersecurity Hands-on Education, Certification, and Knowledge. La nostra piattaforma per la formazione pratica, l'addestramento avanzato e la certificazione delle competenze in sicurezza informatica.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Platform Overview Section -->
+  <section class="section">
+    <div class="container">
+      <div class="service-detail">
+        <div class="service-detail__intro">
+          <p>CHECK nasce dalla ricerca universitaria e dall'esperienza sul campo per rispondere a una sfida concreta: formare professionisti della sicurezza informatica attraverso l'azione pratica. La piattaforma offre ambienti virtuali che replicano infrastrutture reali, permettendo di esercitarsi su scenari di attacco e difesa in un contesto sicuro e controllato.</p>
+        </div>
+
+        <div class="platform__visual" style="margin: var(--spacing-2xl) 0; text-align: center;">
+          <img
+            src="assets/images/platform.jpg"
+            alt="CHECK: Architettura della piattaforma Cyber Range"
+            style="width: 100%; max-width: 900px; height: auto; display: inline-block; border-radius: var(--border-radius);"
+          >
+        </div>
+
+        <div class="service-detail__grid">
+          <!-- Ambienti Realistici -->
+          <div class="service-detail__card">
+            <div class="service-detail__icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3>Ambienti Virtuali Realistici</h3>
+            <p class="service-detail__desc">
+              Replichiamo infrastrutture IT e OT complete: reti aziendali, sistemi SCADA, impianti industriali. Ogni scenario e progettato per essere indistinguibile da un ambiente di produzione reale.
+            </p>
+            <div class="service-detail__features">
+              <h4>Caratteristiche:</h4>
+              <ul>
+                <li>Reti enterprise con Active Directory, server e workstation</li>
+                <li>Ambienti cloud ibridi (AWS, Azure, on-premise)</li>
+                <li>Sistemi di controllo industriale (PLC, HMI, SCADA)</li>
+                <li>Infrastrutture critiche simulate</li>
+                <li>Isolamento completo dall'ambiente di produzione</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Digital Twin -->
+          <div class="service-detail__card">
+            <div class="service-detail__icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
+              </svg>
+            </div>
+            <h3>Integrazione Digital Twin</h3>
+            <p class="service-detail__desc">
+              Creiamo repliche digitali fedeli delle tue infrastrutture reali. Il Digital Twin permette di testare scenari di attacco sulla copia virtuale senza rischi per i sistemi in produzione.
+            </p>
+            <div class="service-detail__features">
+              <h4>Vantaggi:</h4>
+              <ul>
+                <li>Replica fedele della tua infrastruttura specifica</li>
+                <li>Test di vulnerabilita senza impatto sulla produzione</li>
+                <li>Validazione di patch e aggiornamenti pre-deployment</li>
+                <li>Formazione contestualizzata al tuo ambiente</li>
+                <li>Simulazione di incidenti per piani di risposta</li>
+              </ul>
+            </div>
+            <div class="service-detail__why">
+              <h4>Dalla ricerca all'industria:</h4>
+              <p>L'approccio Digital Twin nasce dalla ricerca del progetto ARTIC nell'ambito di SERICS, finanziato dal PNRR, e rappresenta lo stato dell'arte nella simulazione di infrastrutture per la cybersecurity.</p>
+            </div>
+          </div>
+
+          <!-- Orchestrazione -->
+          <div class="service-detail__card">
+            <div class="service-detail__icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
+              </svg>
+            </div>
+            <h3>Orchestrazione Avanzata</h3>
+            <p class="service-detail__desc">
+              Il sistema di orchestrazione gestisce automaticamente il ciclo di vita degli scenari: provisioning, configurazione, esecuzione e teardown. Scalabilita e riproducibilita garantite.
+            </p>
+            <div class="service-detail__features">
+              <h4>Funzionalita:</h4>
+              <ul>
+                <li>Deploy automatico di scenari complessi</li>
+                <li>Gestione multi-tenant per gruppi di utenti</li>
+                <li>Snapshot e rollback per ripetizione esercizi</li>
+                <li>API per integrazione con sistemi esterni</li>
+                <li>Containerizzazione e microservizi per scalabilita</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Scoring Automatico -->
+          <div class="service-detail__card">
+            <div class="service-detail__icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              </svg>
+            </div>
+            <h3>Valutazione Automatizzata</h3>
+            <p class="service-detail__desc">
+              Sistema di scoring che valuta in tempo reale le azioni dei partecipanti. Metriche oggettive per misurare competenze acquisite e progressi nel percorso formativo.
+            </p>
+            <div class="service-detail__features">
+              <h4>Cosa misuriamo:</h4>
+              <ul>
+                <li>Completamento degli obiettivi di scenario</li>
+                <li>Tempo di risoluzione e efficienza</li>
+                <li>Tecniche utilizzate e approccio metodologico</li>
+                <li>Competenze Red Team e Blue Team</li>
+                <li>Report dettagliati per certificazione</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Scenari IT -->
+          <div class="service-detail__card">
+            <div class="service-detail__icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+              </svg>
+            </div>
+            <h3>Scenari IT Enterprise</h3>
+            <p class="service-detail__desc">
+              Esercitazioni su reti aziendali tradizionali: penetration testing, incident response, threat hunting. Dalla compromissione iniziale alla persistenza, fino alla detection e risposta.
+            </p>
+            <div class="service-detail__features">
+              <h4>Tipologie di esercizi:</h4>
+              <ul>
+                <li>Compromissione di reti Active Directory</li>
+                <li>Attacchi web application (OWASP Top 10)</li>
+                <li>Lateral movement e privilege escalation</li>
+                <li>Incident response e forensics</li>
+                <li>Threat hunting con SIEM e EDR</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Scenari OT/ICS -->
+          <div class="service-detail__card">
+            <div class="service-detail__icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+              </svg>
+            </div>
+            <h3>Scenari OT/ICS</h3>
+            <p class="service-detail__desc">
+              Simulazioni specifiche per ambienti industriali: attacchi a sistemi SCADA, manipolazione di PLC, compromissione di reti di controllo. Formazione per chi protegge infrastrutture critiche.
+            </p>
+            <div class="service-detail__features">
+              <h4>Ambiti coperti:</h4>
+              <ul>
+                <li>Attacchi a protocolli industriali (Modbus, S7, OPC)</li>
+                <li>Compromissione di sistemi SCADA e DCS</li>
+                <li>Manipolazione di processi fisici simulati</li>
+                <li>Segmentazione e monitoraggio reti OT</li>
+                <li>Incident response in ambienti industriali</li>
+              </ul>
+            </div>
+            <div class="service-detail__why">
+              <h4>Esperienza sul campo:</h4>
+              <p>La nostra ricerca su HoneyICS e attacchi physics-aware ci ha permesso di sviluppare scenari OT estremamente realistici, basati su minacce reali osservate nel settore industriale.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases Section -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section-title">
+        <h2>Casi d'Uso</h2>
+        <p>CHECK si adatta a diverse esigenze formative e operative</p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Formazione Aziendale</h3>
+          <p class="service-card__description">
+            Addestramento pratico per team IT e security. Scenari personalizzati sulla base della vostra infrastruttura e delle minacce specifiche del vostro settore.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Certificazione Competenze</h3>
+          <p class="service-card__description">
+            Valutazione oggettiva delle competenze di sicurezza attraverso esercizi pratici. Report dettagliati per documentare le skill acquisite.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Esercitazioni Red vs Blue</h3>
+          <p class="service-card__description">
+            Competizioni tra team di attacco e difesa per testare le capacita di detection e response in scenari realistici e controllati.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="cta-block">
+        <h2>Vuoi provare la piattaforma CHECK?</h2>
+        <p>Contattaci per una demo o per discutere le esigenze formative della tua organizzazione. Possiamo creare scenari personalizzati per il tuo settore.</p>
+        <a href="/#contact" class="btn btn--white btn--lg">Richiedi una demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logos">
+            <img src="assets/images/logo-forsec.png" alt="FORSEC Logo" class="footer__logo-main">
+            <img src="assets/images/spin-off-unical-1-600x164.png" alt="Spin-off Università della Calabria" class="footer__logo-secondary">
+          </div>
+          <p>Spin-off dell'Universita della Calabria specializzato in soluzioni innovative per la sicurezza informatica e l'intelligenza artificiale.</p>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Link Rapidi</h4>
+          <div class="footer__links">
+            <a href="piattaforma.html">Piattaforma CHECK</a>
+            <a href="/#services">Servizi</a>
+            <a href="/#about">Chi Siamo</a>
+            <a href="/#team">Team</a>
+            <a href="/#contact">Contatti</a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Servizi</h4>
+          <div class="footer__links">
+            <a href="servizi/cybersecurity.html">Cybersecurity</a>
+            <a href="servizi/intelligenza-artificiale.html">Intelligenza Artificiale</a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Contatti</h4>
+          <div class="footer__links">
+            <a href="mailto:info@forsec.it">info@forsec.it</a>
+            <p style="color: rgba(255,255,255,0.5); font-size: 0.8rem; margin-top: 0.5rem;">P.IVA: 06276000657</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 FORSEC S.r.l. - Tutti i diritti riservati</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
