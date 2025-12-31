@@ -524,10 +524,6 @@ p {
   line-height: 1.7;
 }
 
-/* Only keep subtitle on one line for main hero, not service pages */
-.hero:not(.hero--service) .hero__subtitle {
-  white-space: nowrap;
-}
 
 .hero__cta {
   display: flex;
@@ -946,7 +942,6 @@ p {
 .contact__text {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: var(--spacing-lg);
-  white-space: nowrap;
 }
 
 .contact__items {
@@ -1141,13 +1136,26 @@ p {
     text-align: center;
   }
 
+  .nav__item {
+    display: block;
+    width: 100%;
+  }
+
   .nav__link {
     display: block;
     padding: var(--spacing-sm);
+    text-align: center;
   }
 
   .nav__item--dropdown > .nav__link {
+    display: inline-flex;
     justify-content: center;
+    transition: transform var(--transition-base);
+  }
+
+  /* Shift dropdown link left when submenu is open */
+  .nav__item--dropdown.active > .nav__link {
+    transform: translateX(-20px);
   }
 
   .nav__dropdown {
